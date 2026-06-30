@@ -1,0 +1,1041 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ZARA Premium Clone</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================
+NAVBAR
+========================================= -->
+
+<nav class="navbar">
+
+    <div class="nav-left">
+
+        <button class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+    </div>
+
+    <div class="nav-center">
+        <a href="#" class="logo">ZARA</a>
+    </div>
+
+    <div class="nav-right">
+
+        <a href="#" id="loginBtn">
+            <i class="fa-regular fa-user"></i>
+            Login
+        </a>
+
+        <a href="#">Help</a>
+
+        <a href="#" class="cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count">0</span>
+        </a>
+
+    </div>
+
+</nav>
+
+<!-- =========================================
+CATEGORY MENU
+========================================= -->
+
+<div class="categories">
+
+    <a href="#">Woman</a>
+    <a href="#">Man</a>
+    <a href="#">Kids</a>
+    <a href="#">Beauty</a>
+    <a href="#">Shoes</a>
+
+</div>
+
+<!-- =========================================
+HERO SECTION
+========================================= -->
+
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="hero-subtitle">
+            Spring / Summer 2026
+        </span>
+
+        <h1 class="hero-title">
+            Elevated <br>
+            Modern Fashion
+        </h1>
+
+        <p class="hero-text">
+            Discover timeless silhouettes,
+            luxury textures and premium
+            editorial-inspired fashion.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#" class="btn btn-light">
+                Shop Collection
+            </a>
+
+            <a href="#" class="btn btn-dark">
+                Explore Lookbook
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Floating Cards -->
+
+    <div class="floating-card card1">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80">
+    </div>
+
+    <div class="floating-card card2">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80">
+    </div>
+
+</section>
+
+<!-- =========================================
+PRODUCTS
+========================================= -->
+
+<section class="products-section">
+
+    <div class="section-header">
+
+        <span>Luxury Collection</span>
+
+        <h2>
+            Featured Products
+        </h2>
+
+    </div>
+
+    <div class="products-grid">
+
+        <!-- CARD -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img src="pro-1.avif">
+
+                <div class="product-overlay">
+
+                    <button>Quick View</button>
+                    <button class="dark-btn">Add To Cart</button>
+
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <span>Women</span>
+
+                <h3>Minimal Black Dress</h3>
+
+                <div class="product-bottom">
+
+                    <p>$189</p>
+
+                    <small>★★★★★</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img src="pro-2.jpg">
+
+                <div class="product-overlay">
+
+                    <button>Quick View</button>
+                    <button class="dark-btn">Add To Cart</button>
+
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <span>Blazer</span>
+
+                <h3>Oversized Beige Blazer</h3>
+
+                <div class="product-bottom">
+
+                    <p>$219</p>
+
+                    <small>★★★★★</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img src="pro-3.webp">
+
+                <div class="product-overlay">
+
+                    <button>Quick View</button>
+                    <button class="dark-btn">Add To Cart</button>
+
+                </div>
+
+            </div>
+
+            <div class="product-info">
+
+                <span>Luxury</span>
+
+                <h3>Editorial Fashion Coat</h3>
+
+                <div class="product-bottom">
+
+                    <p>$259</p>
+
+                    <small>★★★★★</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+PREMIUM ABOUT SECTION
+ADD THIS BELOW PRODUCTS SECTION
+========================================= -->
+
+<section class="about-section">
+
+    <!-- Left Image -->
+
+    <div class="about-image-wrapper">
+
+       <a href="about.html"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=80" alt="Fashion Model"></a>
+
+        <div class="about-image-overlay"></div>
+
+    </div>
+
+    <!-- Right Content -->
+
+    <div class="about-content">
+
+        <span class="about-subtitle">
+            About Zara
+        </span>
+
+        <h2 class="about-title">
+            Timeless Fashion <br>
+            With Modern Identity
+        </h2>
+
+        <p class="about-text">
+            Inspired by editorial minimalism and
+            modern luxury aesthetics, our collections
+            blend elevated craftsmanship with refined
+            contemporary silhouettes.
+        </p>
+
+        <p class="about-text">
+            Every piece is designed to express
+            confidence, sophistication and effortless
+            elegance for the modern generation.
+        </p>
+
+        <div class="about-buttons">
+
+            <a href="about.html" class="about-btn dark-about-btn">
+                Discover More
+            </a>
+
+            <a href="products.html" class="about-btn light-about-btn">
+                Explore Collection
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+PREMIUM SERVICES SECTION
+ADD BELOW ABOUT SECTION
+========================================= -->
+
+<section class="services-section">
+
+    <!-- Header -->
+
+    <div class="services-header">
+
+        <span class="services-subtitle">
+            Luxury Experience
+        </span>
+
+        <h2 class="services-title">
+            Crafted Services <br>
+            Beyond Fashion
+        </h2>
+
+    </div>
+
+    <!-- Grid -->
+
+    <div class="services-grid">
+
+        <!-- CARD -->
+
+        <div class="service-card">
+
+            <div class="service-number">
+                01
+            </div>
+
+            <div class="service-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+
+            <h3>
+                Worldwide Shipping
+            </h3>
+
+            <p>
+                Fast premium worldwide delivery
+                with secure logistics and seamless
+                order tracking experiences.
+            </p>
+
+            <div class="service-hover-line"></div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="service-card">
+
+            <div class="service-number">
+                02
+            </div>
+
+            <div class="service-icon">
+                <i class="fa-solid fa-gem"></i>
+            </div>
+
+            <h3>
+                Premium Quality
+            </h3>
+
+            <p>
+                Designed with elevated materials,
+                refined tailoring and timeless
+                luxury craftsmanship.
+            </p>
+
+            <div class="service-hover-line"></div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="service-card">
+
+            <div class="service-number">
+                03
+            </div>
+
+            <div class="service-icon">
+                <i class="fa-solid fa-shirt"></i>
+            </div>
+
+            <h3>
+                Luxury Styling
+            </h3>
+
+            <p>
+                Curated editorial collections
+                inspired by modern fashion,
+                minimalism and elegance.
+            </p>
+
+            <div class="service-hover-line"></div>
+
+        </div>
+
+        <!-- CARD -->
+
+        <div class="service-card">
+
+            <div class="service-number">
+                04
+            </div>
+
+            <div class="service-icon">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+
+            <h3>
+                24/7 Support
+            </h3>
+
+            <p>
+                Dedicated customer experience
+                assistance available anytime
+                for premium support.
+            </p>
+
+            <div class="service-hover-line"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+LUXURY LARGE PRODUCTS SECTION
+ADD BELOW SERVICES SECTION
+========================================= -->
+
+<section class="luxury-products-section">
+
+    <!-- HEADER -->
+
+    <div class="luxury-products-header">
+
+        <span class="luxury-products-subtitle">
+            New Luxury Collections
+        </span>
+
+        <h2 class="luxury-products-title">
+            Curated Fashion <br>
+            For Every Generation
+        </h2>
+
+    </div>
+
+    <!-- =========================================
+    MEN'S WEAR
+    ========================================= -->
+
+    <div class="category-block">
+
+        <div class="category-header">
+            <h3>Mens Wear</h3>
+            <a href="products.html" class="explore-btn">
+    Explore Collection
+    <i class="fa-solid fa-arrow-right"></i>
+</a>
+        </div>
+
+        <div class="luxury-products-grid">
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-m-1.webp">
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Mens Collection</span>
+
+                    <h4>
+                        Premium Denim Dress
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$229</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-m-2.avif" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Mens Collection</span>
+
+                    <h4>
+                        Modern Black Outfit
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$189</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-m-3.jpg" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Mens Collection</span>
+
+                    <h4>
+                        Tailored Luxury Suit
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$320</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- =========================================
+    WOMENS WEAR
+    ========================================= -->
+
+    <div class="category-block">
+
+        <div class="category-header">
+            <h3>Women Wear</h3>
+            <a href="products.html" class="explore-btn">
+    Explore Collection
+    <i class="fa-solid fa-arrow-right"></i>
+</a>
+        </div>
+
+        <div class="luxury-products-grid">
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-w-1.webp" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Women Collection</span>
+
+                    <h4>
+                        Elegant Black Dress
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$249</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-w-2.jpg" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Women Collection</span>
+
+                    <h4>
+                        Premium Streetwear
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$199</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-w-3.webp" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Women Collection</span>
+
+                    <h4>
+                        Luxury Wool Coat
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$289</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- =========================================
+    KIDS WEAR
+    ========================================= -->
+
+    <div class="category-block">
+
+        <div class="category-header">
+            <h3>Kids Wear</h3>
+           <a href="products.html" class="explore-btn">
+    Explore Collection
+    <i class="fa-solid fa-arrow-right"></i>
+</a>
+        </div>
+
+        <div class="luxury-products-grid">
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-k-1.jpg" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Kids Collection</span>
+
+                    <h4>
+                        Casual Kids Outfit
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$89</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-k-2.webp" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Kids Collection</span>
+
+                    <h4>
+                        Premium Kids Fashion
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$110</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="luxury-product-card">
+
+                <div class="luxury-image-wrapper">
+
+                    <img src="pro-k-3.webp" alt="">
+
+                    <div class="luxury-overlay">
+
+                        <button>Quick View</button>
+                        <button class="dark-overlay-btn">
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="luxury-product-content">
+
+                    <span>Kids Collection</span>
+
+                    <h4>
+                        Luxury Winter Outfit
+                    </h4>
+
+                    <div class="luxury-bottom">
+
+                        <p>$129</p>
+                        <small>★★★★★</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+LUXURY PREMIUM FOOTER
+ADD BELOW PRODUCTS SECTION
+========================================= -->
+
+<footer class="luxury-footer">
+
+    <!-- BIG BRAND -->
+
+    <div class="footer-brand-wrapper">
+
+        <h1 class="footer-brand">
+            ZARA
+        </h1>
+
+        <div class="footer-brand-glow"></div>
+
+    </div>
+
+    <!-- FOOTER TOP -->
+
+    <div class="footer-top">
+
+        <!-- COLUMN -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                Customer Care
+            </span>
+
+            <a href="#">My Account</a>
+            <a href="#">Orders & Tracking</a>
+            <a href="#">Shipping & Delivery</a>
+            <a href="#">Returns & Exchanges</a>
+
+        </div>
+
+        <!-- COLUMN -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                Company
+            </span>
+
+            <a href="#">About Zara</a>
+            <a href="#">Careers</a>
+            <a href="#">Stores</a>
+            <a href="#">JOIN LIFE</a>
+
+        </div>
+
+        <!-- COLUMN -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                Legal
+            </span>
+
+            <a href="#">Privacy Policy</a>
+            <a href="#">Purchase Terms</a>
+            <a href="#">Cookie Settings</a>
+            <a href="#">Accessibility</a>
+
+        </div>
+
+        <!-- COLUMN -->
+
+        <div class="footer-column">
+
+            <span class="footer-label">
+                Follow Us
+            </span>
+
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+            <a href="#">Pinterest</a>
+            <a href="#">YouTube</a>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Zara. All Rights Reserved.
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- =========================================
+LOGIN PANEL
+========================================= -->
+
+<div class="overlay" id="overlay"></div>
+
+<div class="login-panel" id="loginPanel">
+
+    <div class="login-header">
+
+        <h2>Log In</h2>
+
+        <button id="closeLogin">
+            &times;
+        </button>
+
+    </div>
+
+    <form>
+
+        <div class="input-group">
+
+            <input type="email" required>
+            <label>Email</label>
+
+        </div>
+
+        <div class="input-group">
+
+            <input type="password" required>
+            <label>Password</label>
+
+        </div>
+
+        <button class="login-submit">
+            Log In
+        </button>
+
+    </form>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
