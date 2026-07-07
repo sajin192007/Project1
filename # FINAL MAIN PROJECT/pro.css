@@ -242,106 +242,191 @@ HERO TEXT ANIMATION
     transform:
     translateY(-12px)
     rotateX(4deg);
-}/* ==========================
-NAVBAR
-========================== */
+}
+
+/* ===============================
+PREMIUM NAVBAR
+=============================== */
 
 .navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 85px;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(12px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 6%;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(0,0,0,0.08);
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:90px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 70px;
+
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(0,0,0,.08);
+
+    z-index:999;
 }
 
 .nav-left,
 .nav-right{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+
+    display:flex;
+    align-items:center;
+    gap:28px;
+
 }
 
 .logo{
-    text-decoration: none;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 8px;
-    font-family: "Times New Roman", serif;
-    transition: all .4s ease;
+
+    text-decoration:none;
+    color:#111;
+
+    font-size:2.9rem;
+
+    letter-spacing:9px;
+
+    font-family:"Times New Roman",serif;
+
+    transition:.4s;
+
 }
 
 .logo:hover{
-    letter-spacing: 12px;
-    transform: scale(1.05);
+
+    letter-spacing:13px;
+
 }
 
-.nav-link{
-    text-decoration: none;
-    color: #111;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    transition: .3s;
+.icon-link{
+
+    width:46px;
+    height:46px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-size:18px;
+
+    transition:.35s;
+
+    position:relative;
+
 }
 
-.nav-link::after{
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background: #000;
-    transition: .4s;
+.icon-link:hover{
+
+    background:#111;
+
+    color:white;
+
+    transform:translateY(-4px);
+
 }
 
-.nav-link:hover::after{
-    width: 100%;
+.icon-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+
+    height:2px;
+
+    bottom:-12px;
+
+    background:#111;
+
+    transition:.4s;
+
 }
 
-.nav-link:hover{
-    transform: translateY(-2px);
+.icon-link:hover::after{
+
+    width:70%;
+
 }
 
-/* Push page below navbar */
+/* Cart */
 
-.products-page{
-    margin-top: 85px;
-}.logo{
-    text-decoration: none;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 8px;
-    font-family: "Times New Roman", serif;
-    animation: logoFloat 4s ease-in-out infinite;
+.cart-icon{
+
+    position:relative;
+
 }
 
-@keyframes logoFloat{
+.cart-count{
 
-    0%{
-        transform: translateY(0);
+    position:absolute;
+
+    top:-4px;
+
+    right:-4px;
+
+    width:19px;
+
+    height:19px;
+
+    border-radius:50%;
+
+    background:#111;
+
+    color:white;
+
+    font-size:11px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:0 20px;
+
+        height:75px;
+
     }
 
-    50%{
-        transform: translateY(-5px);
+    .logo{
+
+        font-size:2rem;
+
+        letter-spacing:5px;
+
     }
 
-    100%{
-        transform: translateY(0);
+    .nav-left{
+
+        gap:15px;
+
+    }
+
+    .nav-right{
+
+        gap:15px;
+
     }
 
 }
+
 /* ==========================
 PREMIUM FOOTER
 ========================== */
